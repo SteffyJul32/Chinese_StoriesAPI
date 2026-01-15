@@ -1,0 +1,33 @@
+{
+  "level": "total-beginner",
+  "hsk": "HSK 1–2",
+  "displayName": "Total Beginners",
+  "lessons": [
+    {
+      "id": "tb-lesson-1",
+      "title": "一粒种子",
+      "slug": "li-mings-day",
+      "thumbnail": "/total-beginner/thumbnails/lesson1.jpg",
+      "availableExercises": ["reading", "listening"],
+      "reading": {
+        "path": "/total-beginner/reading/lesson1.json",
+        "estimatedTime": 5
+      },
+      "listening": {
+        "path": "/total-beginner/listening/lesson1.json",
+        "estimatedTime": 4
+      }
+    },
+    {
+      "id": "tb-lesson-2",
+      "title": "My Family",
+      "slug": "my-family",
+      "thumbnail": "/total-beginner/thumbnails/lesson2.jpg",
+      "availableExercises": ["reading"],
+      "reading": {
+        "path": "/total-beginner/reading/lesson2.json",
+        "estimatedTime": 6
+      }
+    }
+  ]
+}
