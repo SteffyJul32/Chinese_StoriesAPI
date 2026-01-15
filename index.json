@@ -1,0 +1,26 @@
+[
+  {
+    "id": "story-001",
+    "title": "一粒种子",
+    "level": "Intermediate",
+    "language": "zh",
+    "cover": "images/covers/story-001.png",
+    "data": "stories/story-001.json"
+  },
+  {
+    "id": "story-002",
+    "title": "小猫",
+    "level": "beginner",
+    "language": "zh",
+    "cover": "images/covers/story-002.png",
+    "data": "stories/story-002.json"
+  },
+  {
+    "id": "story-003",
+    "title": "小狐狸",
+    "level": "intermediate",
+    "language": "zh",
+    "cover": "images/covers/story-003.png",
+    "data": "stories/story-003.json"
+  }
+]
