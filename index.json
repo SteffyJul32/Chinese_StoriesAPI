@@ -1,26 +1,46 @@
-[
-  {
-    "id": "story-001",
-    "title": "一粒种子",
-    "level": "Intermediate",
-    "language": "zh",
-    "cover": "images/covers/story-001.png",
-    "data": "stories/story-001.json"
-  },
-  {
-    "id": "story-002",
-    "title": "小猫",
-    "level": "beginner",
-    "language": "zh",
-    "cover": "images/covers/story-002.png",
-    "data": "stories/story-002.json"
-  },
-  {
-    "id": "story-003",
-    "title": "小狐狸",
-    "level": "intermediate",
-    "language": "zh",
-    "cover": "images/covers/story-003.png",
-    "data": "stories/story-003.json"
-  }
-]
+{
+  "levels": [
+    {
+      "id": "total-beginner",
+      "label": "Total Beginners",
+      "hsk": "1–2"
+    },
+    {
+      "id": "beginner",
+      "label": "Beginners",
+      "hsk": "2–3"
+    },
+    {
+      "id": "intermediate",
+      "label": "Intermediate",
+      "hsk": "3–4"
+    },
+     {
+      "id": "upper-intermediate",
+      "label": "Upper Intermediate",
+      "hsk": "4–5"
+    },
+    {
+      "id": "advanced",
+      "label": "Advanced",
+      "hsk": "5–6"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-001",
+      "title": "一粒种子",
+      "titleEn": "A Seed",
+      "level": "advanced",
+      "exercises": ["reading"],
+      "path": "/lessons/lesson-001.json"
+    },
+    {
+      "id": "lesson-002",
+      "title": "Li Ming's Day",
+      "level": "total-beginner",
+      "exercises": ["reading", "listening"],
+      "path": "/lessons/lesson-002.json"
+    }
+  ]
+}
